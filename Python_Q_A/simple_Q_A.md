@@ -59,3 +59,13 @@
     Traceback (most recent call last):
       File "<stdin>", line 1, in <module>
     IndexError: list index out of range
+
+### 7、如何将一个列表的数据复制到另一个列表中？
+
+    >>> a = [1, 2, 3]
+    >>> b = a[:]
+
+### 8、如何格式化输出当前时间？
+
+    >>> import time
+    >>> print time.strftime('%Y-%m-%d %H:%M:%S', time.localtime(time.time()))

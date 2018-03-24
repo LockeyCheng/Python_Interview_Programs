@@ -5,8 +5,12 @@
 **Table of Contents**
 
 
-   * [Python知识点问答](./Python_Q_A/Readme.md)
+   * [Python知识点问答（Python_Q_A）](./Python_Q_A/Readme.md)
       * [1 Python的函数参数传递](./Python_Q_A/args_transfer.md)
-   * [Python编程题](./Python_Programming/Readme.md)
+   * [Python编程题（Python_Programming）](./Python_Programming/Readme.md)
       * [1 优化的冒泡排序](./Python_Programming/improved_bubble_sort.md)
+   * [Linux && Shell）](./Linux_Shell/Readme.md)
+      * [loading](./Linux_Shell/first.md)
+   * [SQL(MySQL、MongoDB、)](./SQL/Readme.md)
+      * [loading](./Linux_Shell/first.md)
 

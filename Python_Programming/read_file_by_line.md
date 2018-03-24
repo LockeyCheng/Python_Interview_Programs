@@ -25,7 +25,7 @@ def read_file_by_line_with(filename):
 方法二：使用文件操作的open()函数
 
 ```python
-def read_file_by_line(filename):
+def read_file_by_line0(filename):
     fo = open(filename):
     while True:
         line = fo.readline()
@@ -33,4 +33,11 @@ def read_file_by_line(filename):
             break
         print line
     fo.close()
+
+#如果说文件不是很大的话那么我们就一次性读取然后一行行的输出
+
+def read_file_by_line1(filename):
+    fo = open(filename)
+    for line in fo:
+        print line
 ```

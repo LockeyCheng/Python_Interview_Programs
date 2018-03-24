@@ -19,7 +19,7 @@ def get_day_order(dateStr):
         #对于字符串的分割结果依然是字符列表，需要将字符列表转换为整形列表，否则后面执行求和操作出抛出异常
     except:
         return 'Not a legal date string!'
-    days = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
+    days = [31, 29, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
     if year <1:
         return 'Ivalid year!'
     if month <1 or month >12:
